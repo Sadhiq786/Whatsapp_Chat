@@ -135,6 +135,7 @@
     overflow: hidden;
     @include tablet{
       width: 90%;
+      overflow: scroll;
     }
 
     .sidebar{
@@ -222,11 +223,11 @@
         }
       }
       .chats{
-        overflow-y: hidden;
-        height: 590px;
+        overflow-y: auto;
+        max-height: calc(99% - 100px); /* Set max-height to limit height */
 
         &:hover {
-          overflow-y: scroll; 
+          overflow-y: auto; 
         }
       }
       .userChat{
