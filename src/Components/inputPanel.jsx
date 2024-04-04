@@ -8,6 +8,7 @@ import { db, storage } from '../firebase';
 import { v4 as uuid } from 'uuid';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 import InputEmoji from "react-input-emoji";
+import * as Icon from 'react-bootstrap-icons';
 
 function Inputpanel() {
 
@@ -124,7 +125,7 @@ function Inputpanel() {
         <label htmlFor='file'>
           <img src={Img} alt=''/>
         </label>
-        <button onClick={handleSend}>Send</button>
+        <span><Icon.SendFill onClick={handleSend}/></span>
       </div>
     </div>
   )

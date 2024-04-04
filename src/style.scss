@@ -129,7 +129,7 @@
 
   .container{
     border-radius: 5px;
-    width: 75%;
+    width: 150%;
     height: 90%;
     display: flex;
     overflow: hidden;
@@ -221,6 +221,13 @@
           }
         }
       }
+      .chats{
+        overflow-y: hidden;
+        height: 590px;
+
+        &:hover {
+          overflow-y: scroll; /* Show scrollbar on hover */
+        }
 
       .userChat{
         padding: 10px;
@@ -253,14 +260,15 @@
           .TimeMessage{
             display: flex;
             justify-content: space-between;
-            width: 350px;
+            width: 320px;
             margin-top: 8px;
+            
           }
           p{
             font-size: 15px;
             color: rgb(107, 107, 107);
           }
-
+        }
         }
       }
 
@@ -402,12 +410,13 @@
             cursor: pointer; 
           }
 
-          button{
+          span{
             border: none;
             padding: 5px 15px;
             color:white;
-            background-color: #172963;
             cursor: pointer; 
+            transform: rotate(45deg);
+            color: gray;
 
           }
         }
