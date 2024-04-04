@@ -3,16 +3,16 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // Import your notification sound file
-import notificationSound from './notification_sound.mp3';
+import notificationSound from './web_whatsapp.mp3';
 
-function Notification() {
+function GetNotification() {
   // Define a function to play the notification sound
   const playNotificationSound = () => {
     const audio = new Audio(notificationSound);
     audio.play();
   };
 
-  const notify = () => {
+ const notify = () => {
     // Play the notification sound before showing the toast
     playNotificationSound();
     toast("Wow so easy!");
@@ -26,4 +26,4 @@ function Notification() {
   );
 }
 
-export default Notification;
+export default GetNotification;

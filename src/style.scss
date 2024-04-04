@@ -226,9 +226,9 @@
         height: 590px;
 
         &:hover {
-          overflow-y: scroll; /* Show scrollbar on hover */
+          overflow-y: scroll; 
         }
-
+      }
       .userChat{
         padding: 10px;
         display: flex;
@@ -270,8 +270,6 @@
           }
         }
         }
-      }
-
     }
 
 
