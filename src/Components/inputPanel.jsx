@@ -12,6 +12,7 @@ import * as Icon from 'react-bootstrap-icons';
 
 function Inputpanel() {
 
+  
   const [text, setText] = useState("");
   const [img, setImg] = useState(null);
   const [imgPreview, setImgPreview] = useState(null);

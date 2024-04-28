@@ -134,7 +134,7 @@
     display: flex;
     overflow: hidden;
     @include tablet{
-      width: 90%;
+      width: 60%;
       overflow: scroll;
     }
 
@@ -166,8 +166,8 @@
       
           img{
             background-color: white;
-            height: 24px;
-            width: 24px;
+            height: 35px;
+            width: 35px;
             border-radius: 50%;
             object-fit: cover;
           }

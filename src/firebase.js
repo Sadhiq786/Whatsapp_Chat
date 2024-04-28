@@ -5,13 +5,13 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDDM6DWXLa85JoV2v9z6xiOOxBln8ZK4AM",
-    authDomain: "texting-a3d75.firebaseapp.com",
-    projectId: "texting-a3d75",
-    storageBucket: "texting-a3d75.appspot.com",
-    messagingSenderId: "680270460904",
-    appId: "1:680270460904:web:294229e7955ed0efc5565d"
-  };
+  apiKey: "AIzaSyBsXH2OPfnuTBvKZnWoICtvtFKpLgG_EQk",
+  authDomain: "texting-f8555.firebaseapp.com",
+  projectId: "texting-f8555",
+  storageBucket: "texting-f8555.appspot.com",
+  messagingSenderId: "133616778490",
+  appId: "1:133616778490:web:a6cd7c19bfad7e7222dd43"
+};
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
@@ -26,4 +26,4 @@ export const db = getFirestore();
 //   storageBucket: "chat-app-f4207.appspot.com",
 //   messagingSenderId: "110707872473",
 //   appId: "1:110707872473:web:998ac9e67a118a5168e4c8"
-// };
+// };u8y

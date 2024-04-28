@@ -11,16 +11,6 @@ const Message = ({ message }) => {
 
     useEffect(() => {
         ref.current?.scrollIntoView({ behavior: "smooth" });
-        // Check if the message sender is not the current user and browser supports notifications
-        if (message.senderId !== currentUser.uid && "Notification" in window) {
-            Notification.requestPermission().then(permission => {
-                if (permission === "granted") {
-                    new Notification("New Message Received", {
-                        body: message.text || "New message received", // Display message content if available
-                    });
-                }
-            });
-        }
     }, [message]);
 
     const getMessageSentTime = (timestamp) => {

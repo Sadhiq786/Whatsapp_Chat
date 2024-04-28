@@ -7,14 +7,10 @@ import Inputpanel from './inputPanel'
 import { ChatContext } from '../context/ChatContext'
 import * as Icon from 'react-bootstrap-icons';
 
+
 const Chat=()=>{
 
   const { data } =useContext(ChatContext);
-
-
-
-
-
 
   return (
     <div className='chat'>
