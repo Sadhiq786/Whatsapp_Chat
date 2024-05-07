@@ -1,0 +1,557 @@
+@media only screen and (min-width: 319px) and (max-width: 599px) {
+    .formContainer{
+        border: 1px solid black;
+        background-image: url("./img/bgphone.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formWrapper{
+        border: 1px solid black;
+        padding: 20px;
+        background-color: rgba(254, 254, 254, 0.442);
+        text-align: center;
+        width: 70%;
+        border-radius: 5px;
+    }
+    
+    form input{
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 15px;
+        border: none;
+    }
+    
+    .title{
+        font-weight: bolder;
+        font-size: large;
+        color: black;
+    }
+    
+    .bn632-hover {
+        width: 160px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:focus {
+        outline: none;
+      }
+      
+      .bn632-hover.bn22 {
+        background-image: linear-gradient(
+          to right,
+          #0ba360,
+          #3cba92,
+          #30dd8a,
+          #2bb673
+        );
+        box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+      }
+    
+    
+    table{
+        margin: auto;
+        color: black;
+        font-size: 80%;
+        color: white;
+    }
+
+    .validation{
+        font-size: small;
+        color: rgb(232, 0, 0);
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 599px) and (max-width: 768px) {
+
+    .formContainer{
+        border: 1px solid black;
+        background-image: url("./img/backgroundimage.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formWrapper{
+        border: 1px solid black;
+        padding: 20px;
+        background-color: rgba(254, 254, 254, 0.442);
+        text-align: center;
+        width: 350px;
+        border-radius: 5px;
+    }
+    
+    form input{
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 15px;
+        border: none;
+    }
+    
+    .title{
+        font-weight: bolder;
+        font-size: large;
+        color: black;
+    }
+    
+    .bn632-hover {
+        width: 160px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:focus {
+        outline: none;
+      }
+      
+      .bn632-hover.bn22 {
+        background-image: linear-gradient(
+          to right,
+          #0ba360,
+          #3cba92,
+          #30dd8a,
+          #2bb673
+        );
+        box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+      }
+    
+    
+    table{
+        margin: auto;
+        color: black;
+        font-size: 80%;
+        color: white;
+    }
+
+    .validation{
+        font-size: small;
+        color: rgb(232, 0, 0);
+    }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+
+    .formContainer{
+        border: 1px solid black;
+        background-image: url("./img/backgroundimage.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formWrapper{
+        border: 1px solid black;
+        padding: 20px;
+        background-color: rgba(254, 254, 254, 0.442);
+        text-align: center;
+        width: 450px;
+    }
+    
+    form input{
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 15px;
+        border: none;
+    }
+    
+    .title{
+        font-weight: bolder;
+        font-size: large;
+        color: black;
+    }
+    
+    .bn632-hover {
+        width: 160px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:focus {
+        outline: none;
+      }
+      
+      .bn632-hover.bn22 {
+        background-image: linear-gradient(
+          to right,
+          #0ba360,
+          #3cba92,
+          #30dd8a,
+          #2bb673
+        );
+        box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+      }
+    
+    
+    table{
+        margin: auto;
+        color: black;
+    }
+
+    /* Home */
+    .home{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./img/backgroundimage.jpg");
+        
+    }
+
+    .container{
+      border-radius: 10px;
+      /* width: 80%; */
+      height: fit-content;
+      display: flex;
+      overflow: hidden;
+    }
+
+    .sidebar{
+      display: flex;
+      background-color: white;
+      height: 653px;
+      width: 30%;
+      margin-left: -12px;
+      flex-direction: column;
+    }
+
+    .navbar{
+      display: flex;
+      align-items: center;
+      background-color: #00a884;
+      padding: 10px;
+      justify-content: space-between;
+      color: #fff;
+    }
+
+    .logo{
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .user{
+      display: flex;
+      gap: 10px;
+    }
+
+    .user img{
+      background-color: #fff;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .user span{
+      margin-top: 5px;
+    }
+
+    .user button{
+      font-size: 15px;
+      background-color: white;
+      padding: 0px 10px 0px 10px;
+      color: black;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+
+    .search{
+      border-bottom: 1px solid black ;
+    }
+
+    .searchForm{
+      padding: 5px;
+      
+    }
+
+    .searchForm input{
+      background-color: rgba(170, 170, 170, 0.203);
+      color: black;
+      outline: none;
+      width: 100%;
+      border-radius: 8px;
+      padding: 5px;
+      border: none;
+      text-align: center;
+    }
+
+    .searchForm span{
+      position: absolute;
+      left: 9%;
+      top: 11.6%;
+    }
+
+    .searchForm ::placeholder{
+      text-align: center;
+    }
+
+    .chats{
+      overflow: hidden;
+    }
+
+    .chats:hover{
+      overflow-y: auto;
+    }
+
+    .userChat{
+      display: flex;
+      height: 80px;
+      padding: 10px;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      border-bottom: 1px solid rgb(236, 236, 236);
+    }
+
+    .userChat img{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .userChat span{
+      font-size: 16px;
+      font-weight: 500;
+      position: relative;
+      top: 12px;
+    }
+
+    .TimeMessage{
+      display: flex;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: 8px;
+    }
+
+    .TimeMessage .time{
+      font-size: 12px;
+    }
+
+    .TimeMessage .lastMsg{
+      width: 218px;
+      overflow: hidden;
+      height: 30px;
+      margin-top: -10px;
+      font-weight: normal;
+    }
+
+    
+    /* right side */
+
+    .chat {
+      display: flex;
+      flex-direction: column;
+      width: 930px;
+      height: 653px;
+      margin-right: -12px;
+   }
+    .chat .chatInfo {
+      height: 50px;
+      background-color: #f0f2f5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      font-weight: bold;
+      color: black;
+   }
+    .chat .chatInfo img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+   }
+    .chat .chatIcons {
+      display: flex;
+      gap: 15px;
+   }
+    .chat .chatIcons span {
+      color: #b8b8b8;
+      font-size: 20px;
+      cursor: pointer;
+   }
+    .chat .messages {
+      background-color: #efdcff;
+      background-image: url("./img/Whatspp-background-img.png");
+      background-size: 450px 600px;
+      padding: 10px;
+      height: calc(100% - 100px);
+      overflow-y: scroll;
+   }
+    .chat .messages .message {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+   }
+    .chat .messages .message .messageInfo {
+      display: flex;
+      flex-direction: column;
+      color: gray;
+      font-weight: 300;
+   }
+    .chat .messages .message .messageInfo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+   }
+    .chat .messages .message .messageContent {
+      max-width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      word-break: break-all;
+      word-wrap: break-word;
+   }
+    .chat .messages .message .messageContent p {
+      background-color: white;
+      padding: 10px 10px;
+      border-radius: 0px 10px 10px 10px;
+      max-width: max-content;
+   }
+    .chat .messages .message .messageContent img {
+      width: 50%;
+   }
+    .chat .messages .message.owner {
+      flex-direction: row-reverse;
+   }
+    .chat .messages .message.owner .messageContent {
+      align-items: flex-end;
+   }
+    .chat .messages .message.owner .messageContent p {
+      background-color: #d9fdd3;
+      color: black;
+      border-radius: 10px 0px 10px 10px;
+   }
+    .chat .input {
+      background-color: #f7f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      word-break: break-all;
+   }
+    .chat .input .image-preview {
+      width: 50px;
+      position: relative;
+   }
+    .chat .input input::placeholder {
+      color: lightgray;
+   }
+    .chat .input .send {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+   }
+    .chat .input .send img {
+      height: 24px;
+      cursor: pointer;
+   }
+    .chat .input .send span {
+      border: none;
+      padding: 5px 15px;
+      color: white;
+      cursor: pointer;
+      transform: rotate(45deg);
+      color: gray;
+   }
+    
+
+ 
+
+    
+
+
+}

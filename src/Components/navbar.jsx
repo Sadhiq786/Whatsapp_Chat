@@ -11,7 +11,7 @@ function Navbar() {
     <div className='navbar'>
       <span className='logo'>Whatsapp</span>
       <div className='user'>
-        <img src={currentUser.photoURL}/>
+        <img src={currentUser.photoURL} className='profilepic'/>
         <span>{currentUser.displayName}</span>
         <button onClick={()=>signOut(auth)}>Logout</button>
       </div>

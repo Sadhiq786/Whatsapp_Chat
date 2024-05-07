@@ -62,20 +62,21 @@ const Register = () => {
     return (
         <div className="formContainer">
         <div className="formWrapper">
-            <span className="logo">Whatsapp Chat</span>
-            <span className="title">Register</span>
-            <form onSubmit={handleSubmit}>
-                <input required type="text" placeholder="Name"></input>
-                <input required type="email" placeholder="Email"></input>
-                <input required type="password" placeholder="Password"></input>
+            <img src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png" width={120} className="whatsapp"/><br/><br/>
+            <span className="title">Register</span><br/>
+            <form onSubmit={handleSubmit} className=".regform">
+                <input required type="text" placeholder="Name"></input><br/>
+                <input required type="email" placeholder="Email"></input><br/>
+                <input required type="password" placeholder="Password"></input><br/>
                
                 <input required style={{display:"none"}} type="file" id="file" ></input> 
-                <label htmlFor="file">
-                    <img src={Add}/>
-                    <span>Add an avatar</span>
-                </label>
+                <label htmlFor="file"><br/>
+                    <img src={Add} width={30}/>
+                    &nbsp; &nbsp;
+                    <span style={{color:"yellow"}}><b>Add profile picture</b></span>
+                </label><br/>
 
-                <button class="bn632-hover bn24" disabled={loading}>Register</button>
+                <button class="bn632-hover bn22">Register</button>
                 {loading && "Registration successfull"}
                 {
                     err && <span>Something went wrong</span>

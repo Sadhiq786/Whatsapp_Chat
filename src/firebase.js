@@ -19,11 +19,3 @@ export const auth = getAuth();
 export const storage = getStorage();
 export const db = getFirestore();
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyD03UwfA9BkZLSEOXE3i3uJmi_xp3Bwhsk",
-//   authDomain: "chat-app-f4207.firebaseapp.com",
-//   projectId: "chat-app-f4207",
-//   storageBucket: "chat-app-f4207.appspot.com",
-//   messagingSenderId: "110707872473",
-//   appId: "1:110707872473:web:998ac9e67a118a5168e4c8"
-// };u8y

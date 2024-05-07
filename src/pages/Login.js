@@ -28,25 +28,34 @@ const Loginform = ()=>{
     return(
         <div className="formContainer">
             <div className="formWrapper">
-                <span className="logo">Whatsapp Chat</span>
+            <img src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png" width={120} className="whatsapp"/><br/><br/>
                 <span className="title">Login</span>
                 <form onSubmit={handleSubmit}>
-                    <input type="email" placeholder="Email"></input>
-                    <input type="password" placeholder="Password"></input>
+                    <input type="email" placeholder="Email" value={"sadhiq@gmail.com"}></input>
+                    <input type="password" placeholder="Password" value={"789456"}></input>
 
-                    <button class="bn632-hover bn24">Login</button>
+                    <button class="bn632-hover bn22">Login</button><br/>
                     {
-                        err && <span><h5>Something went wrong</h5></span>
+                        err && <span className="validation">Something went wrong</span>
                     }
                 </form>
                 <p>You don't have an account?<Link to="/register">Register</Link></p>
 
                 <div className="defaultlogin">
-                    <h4>Default  Login Details</h4>
-                    <b><span>Email:</span></b>
-                    <span>&nbsp;&nbsp;&nbsp; sadhiq@gmail.com</span><br/>
-                    <b><span>Password:</span></b>
-                    <span>&nbsp;&nbsp;&nbsp; 789456</span>
+                        <h6>Default login details</h6>
+
+                    <table>
+                        <tr>
+                            <th>Email</th>
+                            <td>:</td>
+                            <td>&nbsp;sadhiq@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Password</th>
+                            <td>:</td>
+                            <td>&nbsp; 789456</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

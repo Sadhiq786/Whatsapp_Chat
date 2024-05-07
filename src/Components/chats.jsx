@@ -51,7 +51,7 @@ const Chats=()=>{
         <div className='userChatInfo'>
           <span>{chat[1].userInfo.displayName}</span>
           <div className='TimeMessage'>
-            <p>{chat[1].lastMessage?.text}</p>
+            <span className='lastMsg'>{chat[1].lastMessage?.text}</span>
             <p className='time'>{getMessageSentTime(chat[1].date)}</p>
           </div>
         </div>
